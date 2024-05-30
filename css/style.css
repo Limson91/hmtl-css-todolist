@@ -13,8 +13,11 @@ img {
     max-width: 100%;
 }
 
-.container {
+.main-container {
     max-width: 800px;
+    padding: 30px 0;
+    background-color: white;
+    border-radius: 20px;
 }
 
 /* header */
@@ -33,4 +36,33 @@ img {
 .page-header {
     padding: 20px;
     background-color: white;
+}
+
+/* main */
+
+.main-content {
+    background-color: rgb(241, 241, 241);
+    padding: 50px 0;
+}
+
+.btn-section {
+    margin-left: 30px;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.add-btn {
+    background-color: rgb(0, 162, 255);
+    color: white;
+}
+
+.section-btn {
+    background-color: white;
+    color: rgb(71, 71, 71);
+    border: 1px solid rgb(71, 71, 71);
 }
